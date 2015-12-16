@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:graphs-dailystats',
-  version: '2.4.0',
+  version: '2.4.3',
   summary: 'DailyStats linechart for Meteor ClinicalFramework ',
   git: 'https://github.com/clinical-meteor/clinical-graphs-dailystats',
   documentation: 'README.md'
