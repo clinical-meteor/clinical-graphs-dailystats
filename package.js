@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:graphs-dailystats',
-  version: '2.3.3',
+  version: '2.4.0',
   summary: 'DailyStats linechart for Meteor ClinicalFramework ',
   git: 'https://github.com/clinical-meteor/clinical-graphs-dailystats',
   documentation: 'README.md'
@@ -16,7 +16,7 @@ Package.onUse(function (api) {
   api.use('momentjs:moment@2.10.3');
 
   api.addFiles('lib/collections.js', ['server', 'client']);
-  api.addFiles('lib/statsCounter.js', ['server', 'client']);
+  api.addFiles('lib/StatsCounter.js', ['server', 'client']);
 
   api.addFiles('components/DailyStatsChart/dailyInteractionsLineGraph.js', 'client');
 
