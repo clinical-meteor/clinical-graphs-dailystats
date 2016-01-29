@@ -1,7 +1,10 @@
 ## clinical:graphs-dailystats
 
 
-DailyStats linechart for Meteor ClinicalFramework using D3 and NVD3.  
+DailyStats linechart for Meteor ClinicalFramework using [D3](http://d3js.org/) and [NVD3](http://nvd3.org/).  
+
+
+
 
 ![DailyStats Screenshot](https://raw.githubusercontent.com/awatson1978/clinical-graphs-dailystats/master/screenshot2.png)
 
@@ -87,8 +90,11 @@ Be sure to run ``starrynight generate-autoconfig`` to add the component tests to
 ````  
 
 ==========================
-####Contributions & Licensing  
+####Contributions
 
-Made possible by the support of the Open Health Imaging Foundation and the Open Genomics Core.  
+Made possible by the support of the [Open Health Imaging Foundation](http://ohif.org/).
 
-MIT licensed.  Use as you will.
+===========================
+#### Licensing  
+
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
