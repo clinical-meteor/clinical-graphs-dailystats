@@ -16,7 +16,7 @@ Package.onUse(function (api) {
   api.use('momentjs:moment@2.10.3');
 
   api.addFiles('lib/collections.js');
-  api.addFiles('lib/StatsCounter.js');
+  api.addFiles('lib/statsCounter.js');
 
   api.addFiles('components/DailyStatsChart/dailyInteractionsLineGraph.js', 'client');
 
