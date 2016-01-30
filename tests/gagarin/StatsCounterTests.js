@@ -23,7 +23,7 @@ describe('clinical:graphs-dailystats', function () {
 
   it('Graphs should exist on the server', function () {
     return server.execute(function () {
-      expect(Graphs).to.exist;
+      expect(Graphs).to.not.exist;
     });
   });
 });
