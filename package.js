@@ -15,7 +15,7 @@ Package.onUse(function (api) {
   api.use('nvd3:nvd3@1.7.1');
   api.use('momentjs:moment@2.10.3');
 
-  api.addFiles('lib/collections.js', ['server', 'client']);
+  api.addFiles('lib/collections.js');
   api.addFiles('lib/StatsCounter.js');
 
   api.addFiles('components/DailyStatsChart/dailyInteractionsLineGraph.js', 'client');
