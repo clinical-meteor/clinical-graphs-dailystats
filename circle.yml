@@ -37,7 +37,7 @@ dependencies:
     - cd helloworld && rm helloworld.*
     - cd helloworld && meteor add anti:gagarin@0.4.11 session meteor-platform clinical:theming clinical:default-theme clinical:router clinical:router-default-config clinical:active-layout clinical:active-layout-reset clinical:active-layout-pagescreen-config grove:less
     - cd helloworld && git clone http://github.com/clinical-meteor/graphs-dailystats packages/graphs-dailystats
-    - cd helloworld/packages/graphs-dailystats && ls -la
+    - cd helloworld/packages/graphs-dailystats/lib && ls -la
     - cd helloworld && meteor add clinical:graphs-dailystats
     - cd helloworld && starrynight autoconfig
 
